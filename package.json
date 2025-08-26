@@ -2,11 +2,10 @@
   "name": "mittalindustry-frontend",
   "version": "1.0.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev -p 3000",
-    "build": "next build",
-    "start": "next start -p 3000"
-  },
+  "scripts":{
+  "start": "react-scripts start",
+  "build": "react-scripts build"
+} ,
   "dependencies": {
     "next": "latest",
     "react": "latest",
