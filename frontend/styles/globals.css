@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Basic theme overrides */
+:root{
+  --brand: #0b61a4;
+  --accent: #ffb400;
+}
+body { @apply bg-gray-50 text-gray-900; font-family: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; }
+.header { background: white; box-shadow: 0 1px 4px rgba(16,24,40,.06); }
+.card { @apply bg-white rounded-lg shadow p-4; }
+.thumb { @apply bg-gray-100 rounded h-40 flex items-center justify-center text-gray-400; }
+.btn-primary { background: var(--brand); color: white; padding: .5rem .75rem; border-radius: .375rem; }
