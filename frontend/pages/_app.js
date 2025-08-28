@@ -1,4 +1,4 @@
-import './styles/globals.css'
+import '../styles/globals.CSS'
 import Head from 'next/head'
 
 export default function MyApp({ Component, pageProps }) {
