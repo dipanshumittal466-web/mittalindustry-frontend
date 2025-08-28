@@ -1,5 +1,5 @@
 import Header from '../components/Header'
-import products from '../data/products.json'
+import products from '../products.json'
 import Link from 'next/link'
 
 export default function Cart(){
