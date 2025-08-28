@@ -1,4 +1,4 @@
-import Header from './components/Header'
+import Header from '../components/Header'
 import products from '../data/products.json'
 import Link from 'next/link'
 
