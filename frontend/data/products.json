@@ -1,0 +1,1082 @@
+[
+  {
+    "id": 1,
+    "name": "Luminous Inverter Model-1",
+    "category": "Inverter",
+    "brand": "Luminous",
+    "price": 7686,
+    "image": "/images/inverter1.jpg",
+    "description": "High-quality inverter from Luminous, reliable and durable for home and office use."
+  },
+  {
+    "id": 2,
+    "name": "Microtek Inverter Model-2",
+    "category": "Inverter",
+    "brand": "Microtek",
+    "price": 6136,
+    "image": "/images/inverter2.jpg",
+    "description": "High-quality inverter from Microtek, reliable and durable for home and office use."
+  },
+  {
+    "id": 3,
+    "name": "Luminous Inverter Model-3",
+    "category": "Inverter",
+    "brand": "Luminous",
+    "price": 9856,
+    "image": "/images/inverter3.jpg",
+    "description": "High-quality inverter from Luminous, reliable and durable for home and office use."
+  },
+  {
+    "id": 4,
+    "name": "Luminous Inverter Model-4",
+    "category": "Inverter",
+    "brand": "Luminous",
+    "price": 4058,
+    "image": "/images/inverter4.jpg",
+    "description": "High-quality inverter from Luminous, reliable and durable for home and office use."
+  },
+  {
+    "id": 5,
+    "name": "Microtek Inverter Model-5",
+    "category": "Inverter",
+    "brand": "Microtek",
+    "price": 7802,
+    "image": "/images/inverter5.jpg",
+    "description": "High-quality inverter from Microtek, reliable and durable for home and office use."
+  },
+  {
+    "id": 6,
+    "name": "Luminous Inverter Model-6",
+    "category": "Inverter",
+    "brand": "Luminous",
+    "price": 11600,
+    "image": "/images/inverter1.jpg",
+    "description": "High-quality inverter from Luminous, reliable and durable for home and office use."
+  },
+  {
+    "id": 7,
+    "name": "Microtek Inverter Model-7",
+    "category": "Inverter",
+    "brand": "Microtek",
+    "price": 10157,
+    "image": "/images/inverter2.jpg",
+    "description": "High-quality inverter from Microtek, reliable and durable for home and office use."
+  },
+  {
+    "id": 8,
+    "name": "Amaron Inverter Model-8",
+    "category": "Inverter",
+    "brand": "Amaron",
+    "price": 8373,
+    "image": "/images/inverter3.jpg",
+    "description": "High-quality inverter from Amaron, reliable and durable for home and office use."
+  },
+  {
+    "id": 9,
+    "name": "Luminous Inverter Model-9",
+    "category": "Inverter",
+    "brand": "Luminous",
+    "price": 1387,
+    "image": "/images/inverter4.jpg",
+    "description": "High-quality inverter from Luminous, reliable and durable for home and office use."
+  },
+  {
+    "id": 10,
+    "name": "Luminous Inverter Model-10",
+    "category": "Inverter",
+    "brand": "Luminous",
+    "price": 15142,
+    "image": "/images/inverter5.jpg",
+    "description": "High-quality inverter from Luminous, reliable and durable for home and office use."
+  },
+  {
+    "id": 11,
+    "name": "Amaron Inverter Model-11",
+    "category": "Inverter",
+    "brand": "Amaron",
+    "price": 19099,
+    "image": "/images/inverter1.jpg",
+    "description": "High-quality inverter from Amaron, reliable and durable for home and office use."
+  },
+  {
+    "id": 12,
+    "name": "Microtek Inverter Model-12",
+    "category": "Inverter",
+    "brand": "Microtek",
+    "price": 12799,
+    "image": "/images/inverter2.jpg",
+    "description": "High-quality inverter from Microtek, reliable and durable for home and office use."
+  },
+  {
+    "id": 13,
+    "name": "Exide Inverter Model-13",
+    "category": "Inverter",
+    "brand": "Exide",
+    "price": 10186,
+    "image": "/images/inverter3.jpg",
+    "description": "High-quality inverter from Exide, reliable and durable for home and office use."
+  },
+  {
+    "id": 14,
+    "name": "Microtek Inverter Model-14",
+    "category": "Inverter",
+    "brand": "Microtek",
+    "price": 4877,
+    "image": "/images/inverter4.jpg",
+    "description": "High-quality inverter from Microtek, reliable and durable for home and office use."
+  },
+  {
+    "id": 15,
+    "name": "Exide Inverter Model-15",
+    "category": "Inverter",
+    "brand": "Exide",
+    "price": 11058,
+    "image": "/images/inverter5.jpg",
+    "description": "High-quality inverter from Exide, reliable and durable for home and office use."
+  },
+  {
+    "id": 16,
+    "name": "Amaron Battery Model-1",
+    "category": "Battery",
+    "brand": "Amaron",
+    "price": 7184,
+    "image": "/images/battery1.jpg",
+    "description": "High-quality battery from Amaron, reliable and durable for home and office use."
+  },
+  {
+    "id": 17,
+    "name": "Exide Battery Model-2",
+    "category": "Battery",
+    "brand": "Exide",
+    "price": 8337,
+    "image": "/images/battery2.jpg",
+    "description": "High-quality battery from Exide, reliable and durable for home and office use."
+  },
+  {
+    "id": 18,
+    "name": "Amaron Battery Model-3",
+    "category": "Battery",
+    "brand": "Amaron",
+    "price": 12032,
+    "image": "/images/battery3.jpg",
+    "description": "High-quality battery from Amaron, reliable and durable for home and office use."
+  },
+  {
+    "id": 19,
+    "name": "Amaron Battery Model-4",
+    "category": "Battery",
+    "brand": "Amaron",
+    "price": 19196,
+    "image": "/images/battery4.jpg",
+    "description": "High-quality battery from Amaron, reliable and durable for home and office use."
+  },
+  {
+    "id": 20,
+    "name": "Exide Battery Model-5",
+    "category": "Battery",
+    "brand": "Exide",
+    "price": 2792,
+    "image": "/images/battery5.jpg",
+    "description": "High-quality battery from Exide, reliable and durable for home and office use."
+  },
+  {
+    "id": 21,
+    "name": "Exide Battery Model-6",
+    "category": "Battery",
+    "brand": "Exide",
+    "price": 12783,
+    "image": "/images/battery1.jpg",
+    "description": "High-quality battery from Exide, reliable and durable for home and office use."
+  },
+  {
+    "id": 22,
+    "name": "Exide Battery Model-7",
+    "category": "Battery",
+    "brand": "Exide",
+    "price": 6685,
+    "image": "/images/battery2.jpg",
+    "description": "High-quality battery from Exide, reliable and durable for home and office use."
+  },
+  {
+    "id": 23,
+    "name": "Luminous Battery Model-8",
+    "category": "Battery",
+    "brand": "Luminous",
+    "price": 18383,
+    "image": "/images/battery3.jpg",
+    "description": "High-quality battery from Luminous, reliable and durable for home and office use."
+  },
+  {
+    "id": 24,
+    "name": "Luminous Battery Model-9",
+    "category": "Battery",
+    "brand": "Luminous",
+    "price": 12859,
+    "image": "/images/battery4.jpg",
+    "description": "High-quality battery from Luminous, reliable and durable for home and office use."
+  },
+  {
+    "id": 25,
+    "name": "Exide Battery Model-10",
+    "category": "Battery",
+    "brand": "Exide",
+    "price": 13790,
+    "image": "/images/battery5.jpg",
+    "description": "High-quality battery from Exide, reliable and durable for home and office use."
+  },
+  {
+    "id": 26,
+    "name": "Okaya Battery Model-11",
+    "category": "Battery",
+    "brand": "Okaya",
+    "price": 10432,
+    "image": "/images/battery1.jpg",
+    "description": "High-quality battery from Okaya, reliable and durable for home and office use."
+  },
+  {
+    "id": 27,
+    "name": "Amaron Battery Model-12",
+    "category": "Battery",
+    "brand": "Amaron",
+    "price": 12675,
+    "image": "/images/battery2.jpg",
+    "description": "High-quality battery from Amaron, reliable and durable for home and office use."
+  },
+  {
+    "id": 28,
+    "name": "Okaya Battery Model-13",
+    "category": "Battery",
+    "brand": "Okaya",
+    "price": 18582,
+    "image": "/images/battery3.jpg",
+    "description": "High-quality battery from Okaya, reliable and durable for home and office use."
+  },
+  {
+    "id": 29,
+    "name": "Amaron Battery Model-14",
+    "category": "Battery",
+    "brand": "Amaron",
+    "price": 19036,
+    "image": "/images/battery4.jpg",
+    "description": "High-quality battery from Amaron, reliable and durable for home and office use."
+  },
+  {
+    "id": 30,
+    "name": "Luminous Battery Model-15",
+    "category": "Battery",
+    "brand": "Luminous",
+    "price": 12281,
+    "image": "/images/battery5.jpg",
+    "description": "High-quality battery from Luminous, reliable and durable for home and office use."
+  },
+  {
+    "id": 31,
+    "name": "Wipro LED Model-1",
+    "category": "LED",
+    "brand": "Wipro",
+    "price": 18808,
+    "image": "/images/led1.jpg",
+    "description": "High-quality led from Wipro, reliable and durable for home and office use."
+  },
+  {
+    "id": 32,
+    "name": "Philips LED Model-2",
+    "category": "LED",
+    "brand": "Philips",
+    "price": 11322,
+    "image": "/images/led2.jpg",
+    "description": "High-quality led from Philips, reliable and durable for home and office use."
+  },
+  {
+    "id": 33,
+    "name": "Havells LED Model-3",
+    "category": "LED",
+    "brand": "Havells",
+    "price": 18584,
+    "image": "/images/led3.jpg",
+    "description": "High-quality led from Havells, reliable and durable for home and office use."
+  },
+  {
+    "id": 34,
+    "name": "Philips LED Model-4",
+    "category": "LED",
+    "brand": "Philips",
+    "price": 18298,
+    "image": "/images/led4.jpg",
+    "description": "High-quality led from Philips, reliable and durable for home and office use."
+  },
+  {
+    "id": 35,
+    "name": "Syska LED Model-5",
+    "category": "LED",
+    "brand": "Syska",
+    "price": 15177,
+    "image": "/images/led5.jpg",
+    "description": "High-quality led from Syska, reliable and durable for home and office use."
+  },
+  {
+    "id": 36,
+    "name": "Philips LED Model-6",
+    "category": "LED",
+    "brand": "Philips",
+    "price": 2652,
+    "image": "/images/led1.jpg",
+    "description": "High-quality led from Philips, reliable and durable for home and office use."
+  },
+  {
+    "id": 37,
+    "name": "Havells LED Model-7",
+    "category": "LED",
+    "brand": "Havells",
+    "price": 11352,
+    "image": "/images/led2.jpg",
+    "description": "High-quality led from Havells, reliable and durable for home and office use."
+  },
+  {
+    "id": 38,
+    "name": "Wipro LED Model-8",
+    "category": "LED",
+    "brand": "Wipro",
+    "price": 7087,
+    "image": "/images/led3.jpg",
+    "description": "High-quality led from Wipro, reliable and durable for home and office use."
+  },
+  {
+    "id": 39,
+    "name": "Philips LED Model-9",
+    "category": "LED",
+    "brand": "Philips",
+    "price": 723,
+    "image": "/images/led4.jpg",
+    "description": "High-quality led from Philips, reliable and durable for home and office use."
+  },
+  {
+    "id": 40,
+    "name": "Wipro LED Model-10",
+    "category": "LED",
+    "brand": "Wipro",
+    "price": 10109,
+    "image": "/images/led5.jpg",
+    "description": "High-quality led from Wipro, reliable and durable for home and office use."
+  },
+  {
+    "id": 41,
+    "name": "Havells LED Model-11",
+    "category": "LED",
+    "brand": "Havells",
+    "price": 15294,
+    "image": "/images/led1.jpg",
+    "description": "High-quality led from Havells, reliable and durable for home and office use."
+  },
+  {
+    "id": 42,
+    "name": "Philips LED Model-12",
+    "category": "LED",
+    "brand": "Philips",
+    "price": 16816,
+    "image": "/images/led2.jpg",
+    "description": "High-quality led from Philips, reliable and durable for home and office use."
+  },
+  {
+    "id": 43,
+    "name": "Philips LED Model-13",
+    "category": "LED",
+    "brand": "Philips",
+    "price": 5603,
+    "image": "/images/led3.jpg",
+    "description": "High-quality led from Philips, reliable and durable for home and office use."
+  },
+  {
+    "id": 44,
+    "name": "Havells LED Model-14",
+    "category": "LED",
+    "brand": "Havells",
+    "price": 2235,
+    "image": "/images/led4.jpg",
+    "description": "High-quality led from Havells, reliable and durable for home and office use."
+  },
+  {
+    "id": 45,
+    "name": "Philips LED Model-15",
+    "category": "LED",
+    "brand": "Philips",
+    "price": 4792,
+    "image": "/images/led5.jpg",
+    "description": "High-quality led from Philips, reliable and durable for home and office use."
+  },
+  {
+    "id": 46,
+    "name": "Crompton Fan Model-1",
+    "category": "Fan",
+    "brand": "Crompton",
+    "price": 16604,
+    "image": "/images/fan1.jpg",
+    "description": "High-quality fan from Crompton, reliable and durable for home and office use."
+  },
+  {
+    "id": 47,
+    "name": "Havells Fan Model-2",
+    "category": "Fan",
+    "brand": "Havells",
+    "price": 3456,
+    "image": "/images/fan2.jpg",
+    "description": "High-quality fan from Havells, reliable and durable for home and office use."
+  },
+  {
+    "id": 48,
+    "name": "Orient Fan Model-3",
+    "category": "Fan",
+    "brand": "Orient",
+    "price": 19509,
+    "image": "/images/fan3.jpg",
+    "description": "High-quality fan from Orient, reliable and durable for home and office use."
+  },
+  {
+    "id": 49,
+    "name": "Havells Fan Model-4",
+    "category": "Fan",
+    "brand": "Havells",
+    "price": 3147,
+    "image": "/images/fan4.jpg",
+    "description": "High-quality fan from Havells, reliable and durable for home and office use."
+  },
+  {
+    "id": 50,
+    "name": "Havells Fan Model-5",
+    "category": "Fan",
+    "brand": "Havells",
+    "price": 14108,
+    "image": "/images/fan5.jpg",
+    "description": "High-quality fan from Havells, reliable and durable for home and office use."
+  },
+  {
+    "id": 51,
+    "name": "Havells Fan Model-6",
+    "category": "Fan",
+    "brand": "Havells",
+    "price": 16389,
+    "image": "/images/fan1.jpg",
+    "description": "High-quality fan from Havells, reliable and durable for home and office use."
+  },
+  {
+    "id": 52,
+    "name": "Crompton Fan Model-7",
+    "category": "Fan",
+    "brand": "Crompton",
+    "price": 13852,
+    "image": "/images/fan2.jpg",
+    "description": "High-quality fan from Crompton, reliable and durable for home and office use."
+  },
+  {
+    "id": 53,
+    "name": "Crompton Fan Model-8",
+    "category": "Fan",
+    "brand": "Crompton",
+    "price": 6320,
+    "image": "/images/fan3.jpg",
+    "description": "High-quality fan from Crompton, reliable and durable for home and office use."
+  },
+  {
+    "id": 54,
+    "name": "Crompton Fan Model-9",
+    "category": "Fan",
+    "brand": "Crompton",
+    "price": 13801,
+    "image": "/images/fan4.jpg",
+    "description": "High-quality fan from Crompton, reliable and durable for home and office use."
+  },
+  {
+    "id": 55,
+    "name": "Orient Fan Model-10",
+    "category": "Fan",
+    "brand": "Orient",
+    "price": 10196,
+    "image": "/images/fan5.jpg",
+    "description": "High-quality fan from Orient, reliable and durable for home and office use."
+  },
+  {
+    "id": 56,
+    "name": "Havells Fan Model-11",
+    "category": "Fan",
+    "brand": "Havells",
+    "price": 1525,
+    "image": "/images/fan1.jpg",
+    "description": "High-quality fan from Havells, reliable and durable for home and office use."
+  },
+  {
+    "id": 57,
+    "name": "Crompton Fan Model-12",
+    "category": "Fan",
+    "brand": "Crompton",
+    "price": 12038,
+    "image": "/images/fan2.jpg",
+    "description": "High-quality fan from Crompton, reliable and durable for home and office use."
+  },
+  {
+    "id": 58,
+    "name": "Havells Fan Model-13",
+    "category": "Fan",
+    "brand": "Havells",
+    "price": 8394,
+    "image": "/images/fan3.jpg",
+    "description": "High-quality fan from Havells, reliable and durable for home and office use."
+  },
+  {
+    "id": 59,
+    "name": "Crompton Fan Model-14",
+    "category": "Fan",
+    "brand": "Crompton",
+    "price": 16872,
+    "image": "/images/fan4.jpg",
+    "description": "High-quality fan from Crompton, reliable and durable for home and office use."
+  },
+  {
+    "id": 60,
+    "name": "Usha Fan Model-15",
+    "category": "Fan",
+    "brand": "Usha",
+    "price": 18710,
+    "image": "/images/fan5.jpg",
+    "description": "High-quality fan from Usha, reliable and durable for home and office use."
+  },
+  {
+    "id": 61,
+    "name": "V-Guard Stabilizer Model-1",
+    "category": "Stabilizer",
+    "brand": "V-Guard",
+    "price": 12718,
+    "image": "/images/stabilizer1.jpg",
+    "description": "High-quality stabilizer from V-Guard, reliable and durable for home and office use."
+  },
+  {
+    "id": 62,
+    "name": "V-Guard Stabilizer Model-2",
+    "category": "Stabilizer",
+    "brand": "V-Guard",
+    "price": 1929,
+    "image": "/images/stabilizer2.jpg",
+    "description": "High-quality stabilizer from V-Guard, reliable and durable for home and office use."
+  },
+  {
+    "id": 63,
+    "name": "Luminous Stabilizer Model-3",
+    "category": "Stabilizer",
+    "brand": "Luminous",
+    "price": 14576,
+    "image": "/images/stabilizer3.jpg",
+    "description": "High-quality stabilizer from Luminous, reliable and durable for home and office use."
+  },
+  {
+    "id": 64,
+    "name": "V-Guard Stabilizer Model-4",
+    "category": "Stabilizer",
+    "brand": "V-Guard",
+    "price": 3187,
+    "image": "/images/stabilizer4.jpg",
+    "description": "High-quality stabilizer from V-Guard, reliable and durable for home and office use."
+  },
+  {
+    "id": 65,
+    "name": "Luminous Stabilizer Model-5",
+    "category": "Stabilizer",
+    "brand": "Luminous",
+    "price": 15764,
+    "image": "/images/stabilizer5.jpg",
+    "description": "High-quality stabilizer from Luminous, reliable and durable for home and office use."
+  },
+  {
+    "id": 66,
+    "name": "Microtek Stabilizer Model-6",
+    "category": "Stabilizer",
+    "brand": "Microtek",
+    "price": 5313,
+    "image": "/images/stabilizer1.jpg",
+    "description": "High-quality stabilizer from Microtek, reliable and durable for home and office use."
+  },
+  {
+    "id": 67,
+    "name": "Luminous Stabilizer Model-7",
+    "category": "Stabilizer",
+    "brand": "Luminous",
+    "price": 18644,
+    "image": "/images/stabilizer2.jpg",
+    "description": "High-quality stabilizer from Luminous, reliable and durable for home and office use."
+  },
+  {
+    "id": 68,
+    "name": "Luminous Stabilizer Model-8",
+    "category": "Stabilizer",
+    "brand": "Luminous",
+    "price": 1965,
+    "image": "/images/stabilizer3.jpg",
+    "description": "High-quality stabilizer from Luminous, reliable and durable for home and office use."
+  },
+  {
+    "id": 69,
+    "name": "Luminous Stabilizer Model-9",
+    "category": "Stabilizer",
+    "brand": "Luminous",
+    "price": 15365,
+    "image": "/images/stabilizer4.jpg",
+    "description": "High-quality stabilizer from Luminous, reliable and durable for home and office use."
+  },
+  {
+    "id": 70,
+    "name": "Microtek Stabilizer Model-10",
+    "category": "Stabilizer",
+    "brand": "Microtek",
+    "price": 16152,
+    "image": "/images/stabilizer5.jpg",
+    "description": "High-quality stabilizer from Microtek, reliable and durable for home and office use."
+  },
+  {
+    "id": 71,
+    "name": "Luminous Stabilizer Model-11",
+    "category": "Stabilizer",
+    "brand": "Luminous",
+    "price": 13104,
+    "image": "/images/stabilizer1.jpg",
+    "description": "High-quality stabilizer from Luminous, reliable and durable for home and office use."
+  },
+  {
+    "id": 72,
+    "name": "Luminous Stabilizer Model-12",
+    "category": "Stabilizer",
+    "brand": "Luminous",
+    "price": 17553,
+    "image": "/images/stabilizer2.jpg",
+    "description": "High-quality stabilizer from Luminous, reliable and durable for home and office use."
+  },
+  {
+    "id": 73,
+    "name": "Everest Stabilizer Model-13",
+    "category": "Stabilizer",
+    "brand": "Everest",
+    "price": 18226,
+    "image": "/images/stabilizer3.jpg",
+    "description": "High-quality stabilizer from Everest, reliable and durable for home and office use."
+  },
+  {
+    "id": 74,
+    "name": "Everest Stabilizer Model-14",
+    "category": "Stabilizer",
+    "brand": "Everest",
+    "price": 19686,
+    "image": "/images/stabilizer4.jpg",
+    "description": "High-quality stabilizer from Everest, reliable and durable for home and office use."
+  },
+  {
+    "id": 75,
+    "name": "Microtek Stabilizer Model-15",
+    "category": "Stabilizer",
+    "brand": "Microtek",
+    "price": 14210,
+    "image": "/images/stabilizer5.jpg",
+    "description": "High-quality stabilizer from Microtek, reliable and durable for home and office use."
+  },
+  {
+    "id": 76,
+    "name": "Anchor MCB Model-1",
+    "category": "MCB",
+    "brand": "Anchor",
+    "price": 10289,
+    "image": "/images/mcb1.jpg",
+    "description": "High-quality mcb from Anchor, reliable and durable for home and office use."
+  },
+  {
+    "id": 77,
+    "name": "Schneider MCB Model-2",
+    "category": "MCB",
+    "brand": "Schneider",
+    "price": 9350,
+    "image": "/images/mcb2.jpg",
+    "description": "High-quality mcb from Schneider, reliable and durable for home and office use."
+  },
+  {
+    "id": 78,
+    "name": "Havells MCB Model-3",
+    "category": "MCB",
+    "brand": "Havells",
+    "price": 19414,
+    "image": "/images/mcb3.jpg",
+    "description": "High-quality mcb from Havells, reliable and durable for home and office use."
+  },
+  {
+    "id": 79,
+    "name": "Havells MCB Model-4",
+    "category": "MCB",
+    "brand": "Havells",
+    "price": 5165,
+    "image": "/images/mcb4.jpg",
+    "description": "High-quality mcb from Havells, reliable and durable for home and office use."
+  },
+  {
+    "id": 80,
+    "name": "Legrand MCB Model-5",
+    "category": "MCB",
+    "brand": "Legrand",
+    "price": 13864,
+    "image": "/images/mcb5.jpg",
+    "description": "High-quality mcb from Legrand, reliable and durable for home and office use."
+  },
+  {
+    "id": 81,
+    "name": "Schneider MCB Model-6",
+    "category": "MCB",
+    "brand": "Schneider",
+    "price": 1645,
+    "image": "/images/mcb1.jpg",
+    "description": "High-quality mcb from Schneider, reliable and durable for home and office use."
+  },
+  {
+    "id": 82,
+    "name": "Havells MCB Model-7",
+    "category": "MCB",
+    "brand": "Havells",
+    "price": 8631,
+    "image": "/images/mcb2.jpg",
+    "description": "High-quality mcb from Havells, reliable and durable for home and office use."
+  },
+  {
+    "id": 83,
+    "name": "Havells MCB Model-8",
+    "category": "MCB",
+    "brand": "Havells",
+    "price": 17511,
+    "image": "/images/mcb3.jpg",
+    "description": "High-quality mcb from Havells, reliable and durable for home and office use."
+  },
+  {
+    "id": 84,
+    "name": "Havells MCB Model-9",
+    "category": "MCB",
+    "brand": "Havells",
+    "price": 8604,
+    "image": "/images/mcb4.jpg",
+    "description": "High-quality mcb from Havells, reliable and durable for home and office use."
+  },
+  {
+    "id": 85,
+    "name": "Anchor MCB Model-10",
+    "category": "MCB",
+    "brand": "Anchor",
+    "price": 11709,
+    "image": "/images/mcb5.jpg",
+    "description": "High-quality mcb from Anchor, reliable and durable for home and office use."
+  },
+  {
+    "id": 86,
+    "name": "Legrand MCB Model-11",
+    "category": "MCB",
+    "brand": "Legrand",
+    "price": 11546,
+    "image": "/images/mcb1.jpg",
+    "description": "High-quality mcb from Legrand, reliable and durable for home and office use."
+  },
+  {
+    "id": 87,
+    "name": "Anchor MCB Model-12",
+    "category": "MCB",
+    "brand": "Anchor",
+    "price": 13423,
+    "image": "/images/mcb2.jpg",
+    "description": "High-quality mcb from Anchor, reliable and durable for home and office use."
+  },
+  {
+    "id": 88,
+    "name": "Schneider MCB Model-13",
+    "category": "MCB",
+    "brand": "Schneider",
+    "price": 19877,
+    "image": "/images/mcb3.jpg",
+    "description": "High-quality mcb from Schneider, reliable and durable for home and office use."
+  },
+  {
+    "id": 89,
+    "name": "Schneider MCB Model-14",
+    "category": "MCB",
+    "brand": "Schneider",
+    "price": 821,
+    "image": "/images/mcb4.jpg",
+    "description": "High-quality mcb from Schneider, reliable and durable for home and office use."
+  },
+  {
+    "id": 90,
+    "name": "Anchor MCB Model-15",
+    "category": "MCB",
+    "brand": "Anchor",
+    "price": 8168,
+    "image": "/images/mcb5.jpg",
+    "description": "High-quality mcb from Anchor, reliable and durable for home and office use."
+  },
+  {
+    "id": 91,
+    "name": "Polycab Wire Model-1",
+    "category": "Wire",
+    "brand": "Polycab",
+    "price": 12268,
+    "image": "/images/wire1.jpg",
+    "description": "High-quality wire from Polycab, reliable and durable for home and office use."
+  },
+  {
+    "id": 92,
+    "name": "Polycab Wire Model-2",
+    "category": "Wire",
+    "brand": "Polycab",
+    "price": 4090,
+    "image": "/images/wire2.jpg",
+    "description": "High-quality wire from Polycab, reliable and durable for home and office use."
+  },
+  {
+    "id": 93,
+    "name": "Finolex Wire Model-3",
+    "category": "Wire",
+    "brand": "Finolex",
+    "price": 18334,
+    "image": "/images/wire3.jpg",
+    "description": "High-quality wire from Finolex, reliable and durable for home and office use."
+  },
+  {
+    "id": 94,
+    "name": "RR Kabel Wire Model-4",
+    "category": "Wire",
+    "brand": "RR Kabel",
+    "price": 9777,
+    "image": "/images/wire4.jpg",
+    "description": "High-quality wire from RR Kabel, reliable and durable for home and office use."
+  },
+  {
+    "id": 95,
+    "name": "Finolex Wire Model-5",
+    "category": "Wire",
+    "brand": "Finolex",
+    "price": 1437,
+    "image": "/images/wire5.jpg",
+    "description": "High-quality wire from Finolex, reliable and durable for home and office use."
+  },
+  {
+    "id": 96,
+    "name": "Polycab Wire Model-6",
+    "category": "Wire",
+    "brand": "Polycab",
+    "price": 12205,
+    "image": "/images/wire1.jpg",
+    "description": "High-quality wire from Polycab, reliable and durable for home and office use."
+  },
+  {
+    "id": 97,
+    "name": "RR Kabel Wire Model-7",
+    "category": "Wire",
+    "brand": "RR Kabel",
+    "price": 1895,
+    "image": "/images/wire2.jpg",
+    "description": "High-quality wire from RR Kabel, reliable and durable for home and office use."
+  },
+  {
+    "id": 98,
+    "name": "Finolex Wire Model-8",
+    "category": "Wire",
+    "brand": "Finolex",
+    "price": 11905,
+    "image": "/images/wire3.jpg",
+    "description": "High-quality wire from Finolex, reliable and durable for home and office use."
+  },
+  {
+    "id": 99,
+    "name": "Finolex Wire Model-9",
+    "category": "Wire",
+    "brand": "Finolex",
+    "price": 3372,
+    "image": "/images/wire4.jpg",
+    "description": "High-quality wire from Finolex, reliable and durable for home and office use."
+  },
+  {
+    "id": 100,
+    "name": "RR Kabel Wire Model-10",
+    "category": "Wire",
+    "brand": "RR Kabel",
+    "price": 17368,
+    "image": "/images/wire5.jpg",
+    "description": "High-quality wire from RR Kabel, reliable and durable for home and office use."
+  },
+  {
+    "id": 101,
+    "name": "Finolex Wire Model-11",
+    "category": "Wire",
+    "brand": "Finolex",
+    "price": 1631,
+    "image": "/images/wire1.jpg",
+    "description": "High-quality wire from Finolex, reliable and durable for home and office use."
+  },
+  {
+    "id": 102,
+    "name": "RR Kabel Wire Model-12",
+    "category": "Wire",
+    "brand": "RR Kabel",
+    "price": 10110,
+    "image": "/images/wire2.jpg",
+    "description": "High-quality wire from RR Kabel, reliable and durable for home and office use."
+  },
+  {
+    "id": 103,
+    "name": "Finolex Wire Model-13",
+    "category": "Wire",
+    "brand": "Finolex",
+    "price": 3527,
+    "image": "/images/wire3.jpg",
+    "description": "High-quality wire from Finolex, reliable and durable for home and office use."
+  },
+  {
+    "id": 104,
+    "name": "Havells Wire Model-14",
+    "category": "Wire",
+    "brand": "Havells",
+    "price": 17398,
+    "image": "/images/wire4.jpg",
+    "description": "High-quality wire from Havells, reliable and durable for home and office use."
+  },
+  {
+    "id": 105,
+    "name": "RR Kabel Wire Model-15",
+    "category": "Wire",
+    "brand": "RR Kabel",
+    "price": 16287,
+    "image": "/images/wire5.jpg",
+    "description": "High-quality wire from RR Kabel, reliable and durable for home and office use."
+  },
+  {
+    "id": 106,
+    "name": "Legrand Socket Model-1",
+    "category": "Socket",
+    "brand": "Legrand",
+    "price": 11074,
+    "image": "/images/socket1.jpg",
+    "description": "High-quality socket from Legrand, reliable and durable for home and office use."
+  },
+  {
+    "id": 107,
+    "name": "Havells Socket Model-2",
+    "category": "Socket",
+    "brand": "Havells",
+    "price": 8706,
+    "image": "/images/socket2.jpg",
+    "description": "High-quality socket from Havells, reliable and durable for home and office use."
+  },
+  {
+    "id": 108,
+    "name": "Havells Socket Model-3",
+    "category": "Socket",
+    "brand": "Havells",
+    "price": 4320,
+    "image": "/images/socket3.jpg",
+    "description": "High-quality socket from Havells, reliable and durable for home and office use."
+  },
+  {
+    "id": 109,
+    "name": "Havells Socket Model-4",
+    "category": "Socket",
+    "brand": "Havells",
+    "price": 9335,
+    "image": "/images/socket4.jpg",
+    "description": "High-quality socket from Havells, reliable and durable for home and office use."
+  },
+  {
+    "id": 110,
+    "name": "Legrand Socket Model-5",
+    "category": "Socket",
+    "brand": "Legrand",
+    "price": 10701,
+    "image": "/images/socket5.jpg",
+    "description": "High-quality socket from Legrand, reliable and durable for home and office use."
+  },
+  {
+    "id": 111,
+    "name": "Legrand Socket Model-6",
+    "category": "Socket",
+    "brand": "Legrand",
+    "price": 11798,
+    "image": "/images/socket1.jpg",
+    "description": "High-quality socket from Legrand, reliable and durable for home and office use."
+  },
+  {
+    "id": 112,
+    "name": "Legrand Socket Model-7",
+    "category": "Socket",
+    "brand": "Legrand",
+    "price": 5494,
+    "image": "/images/socket2.jpg",
+    "description": "High-quality socket from Legrand, reliable and durable for home and office use."
+  },
+  {
+    "id": 113,
+    "name": "Anchor Socket Model-8",
+    "category": "Socket",
+    "brand": "Anchor",
+    "price": 19823,
+    "image": "/images/socket3.jpg",
+    "description": "High-quality socket from Anchor, reliable and durable for home and office use."
+  },
+  {
+    "id": 114,
+    "name": "Havells Socket Model-9",
+    "category": "Socket",
+    "brand": "Havells",
+    "price": 1714,
+    "image": "/images/socket4.jpg",
+    "description": "High-quality socket from Havells, reliable and durable for home and office use."
+  },
+  {
+    "id": 115,
+    "name": "Legrand Socket Model-10",
+    "category": "Socket",
+    "brand": "Legrand",
+    "price": 3953,
+    "image": "/images/socket5.jpg",
+    "description": "High-quality socket from Legrand, reliable and durable for home and office use."
+  },
+  {
+    "id": 116,
+    "name": "GM Modular Socket Model-11",
+    "category": "Socket",
+    "brand": "GM Modular",
+    "price": 3939,
+    "image": "/images/socket1.jpg",
+    "description": "High-quality socket from GM Modular, reliable and durable for home and office use."
+  },
+  {
+    "id": 117,
+    "name": "Havells Socket Model-12",
+    "category": "Socket",
+    "brand": "Havells",
+    "price": 14276,
+    "image": "/images/socket2.jpg",
+    "description": "High-quality socket from Havells, reliable and durable for home and office use."
+  },
+  {
+    "id": 118,
+    "name": "Legrand Socket Model-13",
+    "category": "Socket",
+    "brand": "Legrand",
+    "price": 13516,
+    "image": "/images/socket3.jpg",
+    "description": "High-quality socket from Legrand, reliable and durable for home and office use."
+  },
+  {
+    "id": 119,
+    "name": "GM Modular Socket Model-14",
+    "category": "Socket",
+    "brand": "GM Modular",
+    "price": 7831,
+    "image": "/images/socket4.jpg",
+    "description": "High-quality socket from GM Modular, reliable and durable for home and office use."
+  },
+  {
+    "id": 120,
+    "name": "GM Modular Socket Model-15",
+    "category": "Socket",
+    "brand": "GM Modular",
+    "price": 1710,
+    "image": "/images/socket5.jpg",
+    "description": "High-quality socket from GM Modular, reliable and durable for home and office use."
+  }
+]
