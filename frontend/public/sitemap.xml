@@ -1,39 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Main Pages -->
-  <url>
-    <loc>https://mittalindustry.com/</loc>
-  </url>
-  <url>
-    <loc>https://mittalindustry.com/contact</loc>
-  </url>
-  <url>
-    <loc>https://mittalindustry.com/products</loc>
-  </url>
+    <!-- Main Pages -->
+    <url>
+        <loc>https://mittalindustry.co.in/</loc>
+    </url>
+    <url>
+        <loc>https://mittalindustry.co.in/contact</loc>
+    </url>
+    <url>
+        <loc>https://mittalindustry.co.in/products</loc>
+    </url>
 
-  <!-- Blog Pages -->
-  <url>
-    <loc>https://mittalindustry.com/blog</loc>
-  </url>
+    <!-- Blog Pages -->
+    <url>
+        <loc>https://mittalindustry.co.in/blog</loc>
+    </url>
 
-  <!-- Product Pages -->
-  <url>
-    <loc>https://mittalindustry.com/product</loc>
-  </url>
+    <!-- Product Pages -->
+    <url>
+        <loc>https://mittalindustry.co.in/product</loc>
+    </url>
 
-  <!-- Cart & Checkout -->
-  <url>
-    <loc>https://mittalindustry.com/cart</loc>
-  </url>
-  <url>
-    <loc>https://mittalindustry.com/checkout</loc>
-  </url>
+    <!-- Cart & Checkout -->
+    <url>
+        <loc>https://mittalindustry.co.in/cart</loc>
+    </url>
+    <url>
+        <loc>https://mittalindustry.co.in/checkout</loc>
+    </url>
 
-  <!-- Admin Dashboard -->
-  <url>
-    <loc>https://mittalindustry.com/admin</loc>
-  </url>
+    <!-- Admin Dashboard -->
+    <url>
+        <loc>https://mittalindustry.co.in/admin</loc>
+    </url>
 
 </urlset>
-
