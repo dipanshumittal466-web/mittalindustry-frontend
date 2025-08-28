@@ -4,7 +4,7 @@ export default function Products() {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch("https://your-backend.onrender.com/products")
+    fetch("https://mittalindustry-backend.onrender.com/products")
       .then(res => res.json())
       .then(data => setProducts(data));
   }, []);
