@@ -1,6 +1,7 @@
-// /pages/products.js
-import API_URL from "../config";        // if you kept default export
-// or: import { API_URL } from "../config";
+// /config.js
+export const API_URL =
+  process.env.NEXT_PUBLIC_API_URL || "https://mittalindustry-backend.onrender.com";
+export default API_URL; // keep default too if you want the simple import
 {
   "queries": [
     "inverter battery",
