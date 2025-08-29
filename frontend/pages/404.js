@@ -6,5 +6,5 @@ export default function NotFound(){
       <h2>404 - Not Found</h2>
       <a className="btn btn-outline" href="/">Back to Home</a>
     </Layout>
-  )
+  );
 }
