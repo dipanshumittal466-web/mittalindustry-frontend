@@ -1,12 +1,4 @@
 User-agent: *
 Allow: /
-
-# Block cart, checkout, login, register (SEO के लिए जरूरी नहीं)
-Disallow: /cart
-Disallow: /checkout
-Disallow: /login
-Disallow: /register
-Disallow: /orders
-
 # Sitemap Location
 Sitemap: https://mittalindustry.co.in/sitemap.xml
