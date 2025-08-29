@@ -1,4 +1,3 @@
-
 // generateSitemap.js
 import fs from "fs";
 import path from "path";
@@ -44,11 +43,5 @@ ${urls.map(u => `<url><loc>${u}</loc></url>`).join("\n")}
   fs.writeFileSync(outputFile, sitemap, "utf-8");
   console.log("✅ Sitemap generated at", outputFile);
 }
-function main() {
-  const pageUrls = getPages();
-  const productUrls = getProducts();
-  const allUrls = [...pageUrls, ...productUrls];
-  generateSitemap(allUrls);
-}
 
-main();
+generateSitemap();
