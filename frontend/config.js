@@ -1,6 +1,6 @@
-// config.js
-const API_URL = "https://your-backend-domain.com/api"; 
-export default API_URL;
+// /pages/products.js
+import API_URL from "../config";        // if you kept default export
+// or: import { API_URL } from "../config";
 {
   "queries": [
     "inverter battery",
