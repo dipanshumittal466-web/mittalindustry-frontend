@@ -1,5 +1,6 @@
 
 import Layout from "../components/Layout";
+import API_URL from "../config";   // ✅ config.js import
 import ProductCard from "../components/ProductCard";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
