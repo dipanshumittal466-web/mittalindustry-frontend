@@ -1,3 +1,0 @@
-// config.js
-const API_URL = "https://your-backend-domain.com/api"; 
-export default API_URL;
