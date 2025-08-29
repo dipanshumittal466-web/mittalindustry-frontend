@@ -1,50 +1,110 @@
 [
   {
     "id": 1,
-    "name": "Inverter",
-    "image": "/images/inverter.jpg",
-    "price": "₹8500"
+    "name": "Lumina 900VA Inverter",
+    "price": 4599,
+    "rating": 4.5,
+    "category": "Inverters",
+    "short": "Pure sine wave, home UPS",
+    "image": "https://placehold.co/400x300?text=Inverter"
   },
   {
     "id": 2,
-    "name": "Battery",
-    "image": "/images/battery.jpg",
-    "price": "₹12500"
+    "name": "PowerCell 150Ah Battery",
+    "price": 10499,
+    "rating": 4.4,
+    "category": "Batteries",
+    "short": "Tubular battery, long backup",
+    "image": "https://placehold.co/400x300?text=Battery"
   },
   {
     "id": 3,
-    "name": "LED Bulb",
-    "image": "/images/led.jpg",
-    "price": "₹120"
+    "name": "Nova 9W LED Bulb (Pack of 4)",
+    "price": 399,
+    "rating": 4.2,
+    "category": "LED Bulbs",
+    "short": "Cool white, B22 base",
+    "image": "https://placehold.co/400x300?text=LED+Bulb"
   },
   {
     "id": 4,
-    "name": "Ceiling Fan",
-    "image": "/images/fan.jpg",
-    "price": "₹2500"
+    "name": "AeroCool 1200mm Ceiling Fan",
+    "price": 1899,
+    "rating": 4.3,
+    "category": "Ceiling Fans",
+    "short": "High-speed, low noise",
+    "image": "https://placehold.co/400x300?text=Fan"
   },
   {
     "id": 5,
-    "name": "Stabilizer",
-    "image": "/images/stabilizer.jpg",
-    "price": "₹3500"
+    "name": "VoltGuard Stabilizer 4kVA",
+    "price": 2699,
+    "rating": 4.1,
+    "category": "Stabilizers",
+    "short": "Voltage protection for appliances",
+    "image": "https://placehold.co/400x300?text=Stabilizer"
   },
   {
     "id": 6,
-    "name": "MCB",
-    "image": "/images/mcb.jpg",
-    "price": "₹450"
+    "name": "CopperFlex Wire 1.5mm (90m)",
+    "price": 1799,
+    "rating": 4.0,
+    "category": "Wires & Cables",
+    "short": "ISI certified copper wire",
+    "image": "https://placehold.co/400x300?text=Wire"
   },
   {
     "id": 7,
-    "name": "RTC Timer",
-    "image": "/images/rtc.jpg",
-    "price": "₹800"
+    "name": "SafeSwitch 6A Modular Socket",
+    "price": 199,
+    "rating": 4.3,
+    "category": "Sockets & Switches",
+    "short": "Flame retardant polycarbonate",
+    "image": "https://placehold.co/400x300?text=Socket"
   },
   {
     "id": 8,
-    "name": "Electric Wire (90m)",
-    "image": "/images/wire.jpg",
-    "price": "₹2200"
+    "name": "PowerStrip 6-Port Extension Board",
+    "price": 699,
+    "rating": 4.1,
+    "category": "Extension Boards",
+    "short": "Surge protection, 2m cord",
+    "image": "https://placehold.co/400x300?text=Extension"
+  },
+  {
+    "id": 9,
+    "name": "BrightLite 20W LED Tube",
+    "price": 349,
+    "rating": 4.4,
+    "category": "Tube Lights",
+    "short": "6500K daylight, glare-free",
+    "image": "https://placehold.co/400x300?text=Tube"
+  },
+  {
+    "id": 10,
+    "name": "Shield MCB 32A",
+    "price": 249,
+    "rating": 4.2,
+    "category": "MCB & RCCB",
+    "short": "Short circuit protection",
+    "image": "https://placehold.co/400x300?text=MCB"
+  },
+  {
+    "id": 11,
+    "name": "SurgeSafe Protector 2kV",
+    "price": 599,
+    "rating": 4.1,
+    "category": "Surge Protectors",
+    "short": "Protect electronics from spikes",
+    "image": "https://placehold.co/400x300?text=Surge"
+  },
+  {
+    "id": 12,
+    "name": "SolarMax 100W Panel",
+    "price": 4299,
+    "rating": 4.3,
+    "category": "Solar Panels",
+    "short": "High-efficiency mono-crystalline",
+    "image": "https://placehold.co/400x300?text=Solar"
   }
 ]
