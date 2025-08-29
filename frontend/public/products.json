@@ -1,12 +1,14 @@
 import { useEffect, useState } from "react";
+import API_URL from "../config";
 
 export default function Products() {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch("https://your-backend.onrender.com/products")
-      .then(res => res.json())
-      .then(data => setProducts(data));
+    fetch(`${API_URL}/products`)   // config.js se import
+      .then((res) => res.json())
+      .then((data) => setProducts(data))
+      .catch((err) => console.error("Error fetching products:", err));
   }, []);
 
   return (
@@ -14,7 +16,9 @@ export default function Products() {
       <h1>Our Products</h1>
       <ul>
         {products.map((p, i) => (
-          <li key={i}>{p.name} - ₹{p.price}</li>
+          <li key={i}>
+            {p.name} - ₹{p.price}
+          </li>
         ))}
       </ul>
     </div>
