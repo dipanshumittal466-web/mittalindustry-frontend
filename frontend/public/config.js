@@ -1,5 +1,5 @@
 // config.js
-const API_URL = "https://your-backend-domain.com/api"; 
+const API_URL = "https://mittalindustry-backend.onrender.com/api"; 
 export default API_URL;
 {
   "queries": [
