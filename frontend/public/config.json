@@ -1,5 +1,5 @@
 // config.js
 
 // Backend API URL
-const API_URL = "https://your-backend-domain.com/api";
+import API_URL = "https://mittalindustry-backend.onrender.com/api";
 
