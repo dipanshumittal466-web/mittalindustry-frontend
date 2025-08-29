@@ -1,4 +1,19 @@
-// config.json
-const API_URL = "https://your-backend-domain.com/api"; 
-export default API_URL;
+// config.js
 
+// Backend API URL
+const API_URL = "https://your-backend-domain.com/api";
+
+// Scraper Config
+const SCRAPER_CONFIG = {
+  queries: [
+    "inverter battery",
+    "ceiling fan",
+    "LED bulb",
+    "stabilizer",
+    "copper wire",
+    "switch socket"
+  ],
+  pages: 2
+};
+
+export { API_URL, SCRAPER_CONFIG };
