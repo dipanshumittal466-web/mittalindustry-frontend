@@ -1,58 +1,42 @@
-const fs = require("fs");
-const path = require("path");
 
-const BASE_URL = "https://www.mittalindustry.com";
+// generateSitemap.js
+import fs from "fs";
+import path from "path";
 
-function slugify(text) {
-  return text
-    .toString()
-    .toLowerCase()
-    .replace(/\s+/g, "-")
-    .replace(/[^\w\-]+/g, "")
-    .replace(/\-\-+/g, "-")
-    .replace(/^-+/, "")
-    .replace(/-+$/, "");
+const siteUrl = "https://mittalindustry.co.in"; // 👉 अपनी domain डालें
+const pagesDir = "../https://mittalindustry.co.in/pages";       // 👉 आपकी website का pages folder
+const productsFile = "../https://mittalindustry.co.in/public/data/products.json"; 
+const outputFile = "../https://mittalindustry.co.in/public/sitemap.xml";
+
+function getPages() {
+  const files = fs.readdirSync(pagesDir);
+  return files
+    .filter(f => f.endsWith(".js"))
+    .map(f => {
+      let name = f.replace(".js", "");
+      return name === "index" ? siteUrl : `${siteUrl}/${name}`;
+    });
 }
 
-function generateSitemap() {
-  const productsPath = path.join(__dirname, "../public/products.json");
-  const sitemapPath = path.join(__dirname, "../public/sitemap.xml");
-
-  if (!fs.existsSync(productsPath)) {
-    console.error("products.json not found at", productsPath);
-    process.exit(1);
-  }
-
-  const products = JSON.parse(fs.readFileSync(productsPath, "utf-8"));
-
-  let urls = [];
-
-  // Home
-  urls.push(`
-    <url>
-      <loc>${BASE_URL}/</loc>
-      <changefreq>daily</changefreq>
-      <priority>1.0</priority>
-    </url>`);
-
-  // Products
-  products.forEach((p) => {
-    const slug = slugify(p.name);
-    urls.push(`
-    <url>
-      <loc>${BASE_URL}/products/${slug}</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>`);
-  });
-
-  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
-  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  ${urls.join("\n")}
-  </urlset>`;
-
-  fs.writeFileSync(sitemapPath, sitemap, "utf-8");
-  console.log("✅ Sitemap generated successfully at public/sitemap.xml");
+function getProducts() {
+  if (!fs.existsSync(productsFile)) return [];
+  const data = JSON.parse(fs.readFileSync(productsFile, "utf-8"));
+  return data.map(p => `${siteUrl}/products?id=${p.id}`);
 }
 
-generateSitemap();
+function generateSitemap(urls) {
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls
+    .map(u => `  <url><loc>${u}</loc></url>`)
+    .join("\n")}\n</urlset>`;
+  fs.writeFileSync(outputFile, xml, "utf-8");
+  console.log(`✅ Sitemap generated at ${outputFile} with ${urls.length} URLs`);
+}
+
+function main() {
+  const pageUrls = getPages();
+  const productUrls = getProducts();
+  const allUrls = [...pageUrls, ...productUrls];
+  generateSitemap(allUrls);
+}
+
+main();
