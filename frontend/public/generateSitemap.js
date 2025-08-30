@@ -25,13 +25,25 @@ function getProducts() {
 }
 
 function generateSitemap(urls) {
-  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls
-    .map(u => `  <url><loc>${u}</loc></url>`)
-    .join("\n")}\n</urlset>`;
+  const today = new Date().toISOString().split("T")[0]; // YYYY-MM-DD
+
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    ${urls
+      .map(
+        (u, i) => `
+      <url>
+        <loc>${u}</loc>
+        <lastmod>${today}</lastmod>
+        <changefreq>${i === 0 ? "daily" : "weekly"}</changefreq>
+        <priority>${i === 0 ? "1.0" : "0.8"}</priority>
+      </url>`
+      )
+      .join("\n")}
+  </urlset>`;
+
   fs.writeFileSync(outputFile, xml, "utf-8");
   console.log(`✅ Sitemap generated at ${outputFile} with ${urls.length} URLs`);
 }
-
 function main() {
   const pageUrls = getPages();
   const productUrls = getProducts();
