@@ -2,10 +2,11 @@
   "name": "mittalindustry-frontend",
   "version": "1.0.0",
   "private": true,
-  "scripts": {
+ "scripts": {
   "dev": "next dev",
-  "build": "next build && node generateSitemap.js",
-  "start": "next start -p 3000"
+  "build": "next build",
+  "start": "next start",
+  "generate-sitemap": "node ./frontend/public/generateSitemap.js"
 },
   "dependencies": {
     "next": "13.5.6",
