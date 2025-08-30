@@ -6,7 +6,6 @@
   "dev": "next dev",
   "build": "next build",
   "start": "next start",
-  "generate-sitemap": "node public/generateSitemap.js"
 },
   "dependencies": {
     "next": "13.5.6",
