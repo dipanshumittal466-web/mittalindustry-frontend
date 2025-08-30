@@ -1,50 +1,58 @@
 const fs = require("fs");
 const path = require("path");
 
-const siteUrl = "https://mittalindustry.co.in"; // <-- apna domain yaha dalna
+const BASE_URL = "https://www.mittalindustry.com";
 
-// Pages list (jo aapke screenshot me the)
-const pages = [
-  "/",          // index.js
-  "/about",
-  "/cart",
-  "/checkout",
-  "/contact",
-  "/login",
-  "/orders",
-  "/products",
-  "/register",
-  "/services",
-  "/success",
-  "/404",
-  "/blog",      // folder
-  "/product"    // folder
-];
-
-function generateSitemap(urls) {
-  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n` +
-    `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
-    urls
-      .map(
-        (url) => `
-  <url>
-    <loc>${siteUrl}${url}</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>`
-      )
-      .join("\n") +
-    "\n</urlset>";
-
-  const outputPath = path.join(__dirname, "public", "sitemap.xml");
-
-  // public/ folder me sitemap.xml create karega
-  if (!fs.existsSync(path.dirname(outputPath))) {
-    fs.mkdirSync(path.dirname(outputPath), { recursive: true });
-  }
-
-  fs.writeFileSync(outputPath, xml, "utf-8");
-  console.log(`✅ Sitemap generated at ${outputPath} with ${urls.length} URLs`);
+function slugify(text) {
+  return text
+    .toString()
+    .toLowerCase()
+    .replace(/\s+/g, "-")
+    .replace(/[^\w\-]+/g, "")
+    .replace(/\-\-+/g, "-")
+    .replace(/^-+/, "")
+    .replace(/-+$/, "");
 }
 
-generateSitemap(pages);
+function generateSitemap() {
+  const productsPath = path.join(__dirname, "../public/products.json");
+  const sitemapPath = path.join(__dirname, "../public/sitemap.xml");
+
+  if (!fs.existsSync(productsPath)) {
+    console.error("products.json not found at", productsPath);
+    process.exit(1);
+  }
+
+  const products = JSON.parse(fs.readFileSync(productsPath, "utf-8"));
+
+  let urls = [];
+
+  // Home
+  urls.push(`
+    <url>
+      <loc>${BASE_URL}/</loc>
+      <changefreq>daily</changefreq>
+      <priority>1.0</priority>
+    </url>`);
+
+  // Products
+  products.forEach((p) => {
+    const slug = slugify(p.name);
+    urls.push(`
+    <url>
+      <loc>${BASE_URL}/products/${slug}</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>`);
+  });
+
+  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  ${urls.join("\n")}
+  </urlset>`;
+
+  fs.writeFileSync(sitemapPath, sitemap, "utf-8");
+  console.log("✅ Sitemap generated successfully at public/sitemap.xml");
+}
+
+generateSitemap();
