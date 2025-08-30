@@ -1,54 +1,50 @@
+const fs = require("fs");
+const path = require("path");
 
-// generateSitemap.js
-import fs from "fs";
-import path from "path";
+const siteUrl = "https://mittalindustry.co.in"; // <-- apna domain yaha dalna
 
-const siteUrl = "https://mittalindustry.co.in"; // 👉 अपनी domain डालें
-const pagesDir = "./frontend/pages";       // 👉 आपकी website का pages folder
-const productsFile = "./frontend/public/data/products.json"; 
-const outputFile = "./frontend/public/sitemap.xml";
-
-function getPages() {
-  const files = fs.readdirSync(pagesDir);
-  return files
-    .filter(f => f.endsWith(".js"))
-    .map(f => {
-      let name = f.replace(".js", "");
-      return name === "index" ? siteUrl : `${siteUrl}/${name}`;
-    });
-}
-
-function getProducts() {
-  if (!fs.existsSync(productsFile)) return [];
-  const data = JSON.parse(fs.readFileSync(productsFile, "utf-8"));
-  return data.map(p => `${siteUrl}/products?id=${p.id}`);
-}
+// Pages list (jo aapke screenshot me the)
+const pages = [
+  "/",          // index.js
+  "/about",
+  "/cart",
+  "/checkout",
+  "/contact",
+  "/login",
+  "/orders",
+  "/products",
+  "/register",
+  "/services",
+  "/success",
+  "/404",
+  "/blog",      // folder
+  "/product"    // folder
+];
 
 function generateSitemap(urls) {
-  const today = new Date().toISOString().split("T")[0]; // YYYY-MM-DD
-
-  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    ${urls
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n` +
+    `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
+    urls
       .map(
-        (u, i) => `
-      <url>
-        <loc>${u}</loc>
-        <lastmod>${today}</lastmod>
-        <changefreq>${i === 0 ? "daily" : "weekly"}</changefreq>
-        <priority>${i === 0 ? "1.0" : "0.8"}</priority>
-      </url>`
+        (url) => `
+  <url>
+    <loc>${siteUrl}${url}</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>`
       )
-      .join("\n")}
-  </urlset>`;
+      .join("\n") +
+    "\n</urlset>";
 
-  fs.writeFileSync(outputFile, xml, "utf-8");
-  console.log(`✅ Sitemap generated at ${outputFile} with ${urls.length} URLs`);
-}
-function main() {
-  const pageUrls = getPages();
-  const productUrls = getProducts();
-  const allUrls = [...pageUrls, ...productUrls];
-  generateSitemap(allUrls);
+  const outputPath = path.join(__dirname, "public", "sitemap.xml");
+
+  // public/ folder me sitemap.xml create karega
+  if (!fs.existsSync(path.dirname(outputPath))) {
+    fs.mkdirSync(path.dirname(outputPath), { recursive: true });
+  }
+
+  fs.writeFileSync(outputPath, xml, "utf-8");
+  console.log(`✅ Sitemap generated at ${outputPath} with ${urls.length} URLs`);
 }
 
-main();
+generateSitemap(pages);
