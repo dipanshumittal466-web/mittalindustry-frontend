@@ -4,9 +4,9 @@ import fs from "fs";
 import path from "path";
 
 const siteUrl = "https://mittalindustry.co.in"; // 👉 अपनी domain डालें
-const pagesDir = "../your-website/pages";       // 👉 आपकी website का pages folder
-const productsFile = "../your-website/public/data/products.json"; 
-const outputFile = "../your-website/public/sitemap.xml";
+const pagesDir = "./frontend/pages";       // 👉 आपकी website का pages folder
+const productsFile = "./frontend/public/data/products.json"; 
+const outputFile = "./frontend/public/sitemap.xml";
 
 function getPages() {
   const files = fs.readdirSync(pagesDir);
